@@ -66,3 +66,14 @@ body{
 }
 
 
+ /*content*/
+
+ .content {
+ 	padding: 20px;
+ }
+
+.content-title {
+	margin: o;
+	font-size: 24px;
+	color: #ce2929;
+}
