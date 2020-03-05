@@ -1,1 +1,68 @@
-body{color:red;}
+body{
+	margin: 0;
+	font-family: Arial, san-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #121212;
+
+	background: url("img/texture.jpg");
+}
+
+
+
+.page{
+	width: 800px;
+	margin: 20px auto;
+
+	background-color: #20B2AA;
+}
+
+
+ /* Header */
+.header {
+	padding: 20px;
+
+	background-color: black;
+}
+
+.header-title {
+	margin: 0;
+
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+}
+
+.header-subtitle {
+	margin: 0;
+
+	font-size: 16px;
+	color: #56b6fb;
+	text-align: center;
+	font-weight: 400;
+}
+
+
+
+ /* Nav */
+
+ .nav {
+ 	text-align: center;
+ }
+
+ .nav-link {
+ 	display: inline-block;
+ 	padding: 8px 12px;
+
+ 	text-decoration: none; 
+ }
+
+.nav-link:hover {
+	background-color: #FFD700;
+}
+
+.image1 {
+	width: 100%;
+}
+
+
