@@ -31,7 +31,7 @@ li{
 li:nth-child(-n+5){
 	border-bottom: 0;
 }
-li:nth-child(5n+5){
+li:nth-child(5n+0){
 	border-right: 2px solid green;
 }
 li:after{
@@ -42,8 +42,28 @@ li:after{
 	position: absolute;
 	top: 0;
 	left: 0;
+	opacity: 1;
 	transition: all .5s linear;
 }
 li:hover:after{
 	left: -100%;
+}
+li:hover:nth-child(n+3):nth-child(-n+4):after{
+	left: 100%;
+}
+li:nth-child(n+5):nth-child(-n+8):after{
+	left:auto;
+	top: auto;
+	bottom: 0;
+}
+li:hover:nth-child(n+5):nth-child(-n+6):after{
+	bottom: -100%;
+}
+li:hover:nth-child(n+7):nth-child(-n+8):after{
+	bottom: 100%;
+}
+li:hover:nth-child(n+9):after{
+	opacity:0; 
+	left: 0;
+	top: 0;
 }
