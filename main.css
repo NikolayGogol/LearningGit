@@ -1,1 +1,49 @@
-body{color:red;}
+body{
+	color:red;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+ul{
+	list-style: none;
+	max-width: 520px;
+	margin:0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+}
+li{
+	width: 100px;
+	height: 100px;
+	border: 2px solid green;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-right: 0;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+}
+li:nth-child(-n+5){
+	border-bottom: 0;
+}
+li:nth-child(5n+5){
+	border-right: 2px solid green;
+}
+li:after{
+	content: '';
+	width: 100%;
+	height: 100%;
+	background-color: grey;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all .5s linear;
+}
+li:hover:after{
+	left: -100%;
+}
