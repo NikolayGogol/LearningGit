@@ -25,13 +25,17 @@ body{
 	background-color: black;
 }
 
+
+}
+
 .header-title {
 	margin: 0;
 
 	font-size: 24px;
-	color: #fff;
+	color:#0267a0;
 	text-align: center;
 }
+
 
 .header-subtitle {
 	margin: 0;
@@ -58,7 +62,7 @@ body{
  }
 
 .nav-link:hover {
-	background-color: #FFD700;
+	background-color: #A9A9A9;
 }
 
 .image1 {
@@ -75,7 +79,7 @@ body{
 .content-title {
 	margin: o 0 15;
 	font-size: 24px;
-	color: #ce2929;
+	color: #413150;
 }
 
 .content-text {
