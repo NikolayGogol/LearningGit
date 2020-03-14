@@ -1,55 +1,73 @@
-body{
+@font-face {
+  font-family: muller;
+  src: url(./fonts/MullerBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: muller;
+  src: url(./fonts/MullerRegular.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: muller;
+  src: url(./fonts/MullerUltraLight.ttf);
+  font-weight: 300;
+}
+
+*{
+	font-family: muller;
+	font-weight: 500;
 	margin: 0;
+	padding: 0;
+}
+body{
 	font-family: Arial, san-serif;
 	font-size: 15px;
 	line-height: 1.5;
 	color: #057cbe;
 	text-align: center;
-
 	background: url("img/texture.jpg");
 }
 
-
-
+.text-align-left {
+	text-align: left;
+	display: block;
+	width: 100%
+}
+.margin-bottom {
+	margin-bottom: 15px;
+}
 .page{
 	width: 800px;
 	margin: 20px auto;
-
 	background-color: #ffffff;
 }
 
-
- /* Header */
+          /* Header */
 .header {
 	padding: 20px;
-
 	background-color: black;
 }
 
-
-}
-
 .header-title {
+	font-weight: 800;
 	margin: 0;
-
-	font-size: 24px;
+    font-size: 24px;
 	color:#0267a0;
 	text-align: center;
 }
 
-
 .header-subtitle {
 	margin: 0;
-
 	font-size: 16px;
 	color: #56b6fb;
 	text-align: center;
 	font-weight: 400;
 }
 
-
-
- /* Nav */
+          /* Nav */
 
  .nav {
  	text-align: center;
@@ -58,7 +76,6 @@ body{
  .nav-link {
  	display: inline-block;
  	padding: 8px 12px;
-
  	text-decoration: none; 
  }
 
@@ -70,8 +87,7 @@ body{
 	width: 100%;
 }
 
-
- /*content*/
+          /*content*/
 
  .content {
  	padding: 20px;
@@ -97,8 +113,7 @@ body{
 	text-decoration: underline; 
 }
 
-
- /*article*/
+          /*article*/
 
 .article-title {
 	margin: 0 0 15;
@@ -123,13 +138,11 @@ body{
 	text-decoration: none;
 }
 
-
 .article-title a:hover {
 	text-decoration: underline;
 }
 
-
- /*footer*/
+          /*footer*/
 
  .footer {
  	padding: 20px;
@@ -138,6 +151,27 @@ body{
  	color: #fff;
  	text-align: center;
  }
+
+          /*form*/
+
+.form {
+	width: 500px;
+	padding: 20px;
+	margin: auto;
+	background-color: #A9A9A9;
+}
+
+.title-form{
+	color: #0267a0;
+}
+
+.farm-group {
+	margin-bottom: 15px;
+}
+
+.form-input {
+	padding: 5px;
+}
 
 
 
